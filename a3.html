@@ -1,0 +1,112 @@
+<html>
+    <head>
+
+    <link rel="stylesheet" href="a3.css">
+
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One&display">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>A3: Measuring Time</title>
+
+    </head>
+
+    <body>
+
+        <a class= "one" href="A4.html"><h1>ROBSON YUNG .-.. --- ...- . ... GRAPHIC DESIGN 2</h1></a>
+        
+        <h2>A3: MEASURING TIME</h2> 
+        :design an interaction that can be used for measuring or managing time. 
+        The rule is that it must be distinct from tradition clocks or calendars.
+        <hr color="black">
+
+        <button type="button" class="collapsible"><h3>Inpiration</h3></button>
+        <div class="content">
+            <h4>Class 1</h4>
+            <p>When I was thinking of some other ways to check the time other than looking at the clocks, I thought of my parents who live in Hong Kong.
+                Since I came to Toronto, they would video call me every Saturday. 
+                The thing is that they always do it right after they wake up, which is around 9pm here.
+                Hence, everytime I receive their call, I would know that it is about 9pm without looking at the clock. 
+                This happens basically because of the different time zones we are located in and it gave me an idea for this assignment.
+            </p>
+        </div>
+
+        <hr color="black">
+
+        <button type="button" class="collapsible"><h3>Idea</h3></button>
+        <div class="content">
+            <h4>Class 2</h4>
+            <p>So, to apply this concept into this project, I decided to create a website to have people from around the world say "good morning" on it in their respective morning.
+                To make it work, you can only say it between 8am to 9am. Then, for the rest of the day, you will keep seeing messages from different cities in different time zones as there is always a time zone in its 8am to 9am. 
+                I call it the "morning time zone" and it basically changes every hour. 
+                This website can function as a clock because you will get a sense of what time it is by seeing particular cities. 
+                For example, if you see a “good morning” from Hong Kong, then you would know that it’s around 9pm since Hong Kong is 12 hours ahead of Toronto.
+            </p>
+        </div>
+        
+        <hr color="black">
+        
+        <button type="button" class="collapsible"><h3>Process Work</h3></button>
+        <div class="content">
+            <h4>Class 3</h4>
+            <p>To visualize the website, I used illustrator to create the layout of it. First, I designed a few time zone lists, which shows the current morning time zone and the offset between your time zone and the morning time zone. Then I tried to display the morning messages in different ways. I have also included a text input bar with a send button, and a sky background.</p>
+            <img src="/a3/tzl.png" alt="Time zone lists" style="width: 49%;">
+            <figcaption>Variations of time zone list</figcaption>
+            <img src="/a3/mm.png" alt="Morning messages" style="width: 49%;">
+            <figcaption>Variations of display of morning messages</figcaption>
+            <p>Feedback: Play momre with typography and get rid of the background which was a bit meaningless.</p>
+
+            <hr color="black" style="margin-left:87vh">
+
+            <h4>Class 4</h4>
+            <p>After receiving the feedback, I have made multiple changes and adjustments to the layout. First, I changed the time zone list to only showing the morning time zone and the current time zone instead of showing the whole list. Then, I decided to only have one morning message on the screen at a time and the users can click through all the messages. I have also removed the background to make the design more clean. Moreover, I have added a feature of listeninig to the morning messages as well, which means the users can record themselves saying "good morning".</p>
+            <img src="/a3/ai_layout.png" alt="Layout" style="width: 49%;">
+            <figcaption>Modofied layout</figcaption>
+
+            <hr color="black" style="margin-left:87vh">
+
+            <h4>Class 5</h4>
+            <p>After having a clearer concept of how the website looks, I moved to Adobe XD to make the prototype. Without changing too much on the layout, I have modified the time zone list and added two bars on the top and bottom of the page. I have also named this website: Top of the Morning! Here’s a short video showing the interactive part of the website:  </p>
+                <p>(the animation of the time zone list shows how it would change along the day)</p>
+            <img src="/a3/ezgif.com-gif-maker.gif" alt="demo" style="width:49%">
+
+            <hr color="black" style="margin-left:87vh">
+
+            <h4>Class 6</h4>
+            <p>After the presentation, I received a suggestion on adding a world map to the background. Therefore, I did it and made it an alternative way to check the morning time zone. I added a button to switch to that page.<br>
+                (again, the animation shows how it would change along the day)</p>
+
+            <img src="/a3/demo2.gif" alt="demo2" style="width:49%">
+        </div>
+        
+        <hr color="black">
+        
+        <button type="button" class="collapsible"><h3>Final</h3></button>
+        <div class="content">
+            <img src="/a3/a3_final.png" alt="Final"style="width:98%; padding: 0vw;">
+        </div>
+        
+        <hr color="black">
+        
+        <a href="A4.html">Go Back</a>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+            </script>
+            
+    </body>
+</html>

@@ -1,0 +1,99 @@
+body {
+    background-color:rgb(84, 122, 228);
+    font-family: 'Source Code Pro', monospace;
+    padding-left: 1vh;
+}
+
+/* header */
+h1 {
+    font-size: 1.5vw; 
+    font-weight: 200;
+    background-color: black;
+    width: 99%;
+    color: white;
+    margin-top: -2vh;
+    margin-left: -3vh;
+    padding:3vh;
+}
+
+  /* RR */
+h2{
+    font-size: 8vw; 
+    line-height: 0%;
+    font-family: 'Passion One', cursive;    
+}
+
+  /* reading disscusion */
+h3{
+    font-size: 2vw; 
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 900;
+    padding-right: 50vw; 
+}
+
+  /* article  */
+h4{
+    font-size: 1.5vw; 
+    font-weight: 700;
+    padding-left: 48vw;
+    padding-right: 2vw;
+}
+
+  /* question */
+h5{
+    font-size: 1vw; 
+    font-style: italic;
+    font-weight: 700;
+    padding-left: 48vw;
+    padding-right: 2vw;
+}
+
+/* answer */
+p{
+    font-size: 1vw; 
+    font-weight: 400;
+    padding-left: 48vw;
+    padding-right: 4vw;
+}
+
+
+img{
+    padding-left: 48vw;
+}
+
+
+a:link {color: rgb(0, 0, 0);}
+a:visited {color: rgb(0, 0, 0);}
+a:hover {color: rgb(255, 255, 255)}
+
+a.one:link {text-decoration: none;}
+a.one:visited {text-decoration: none;}
+a.one:hover {text-decoration: none;}
+
+
+.collapsible {
+  background-color:rgb(84, 122, 228);
+  color: rgb(0, 0, 0);
+  cursor: pointer;
+  padding: 0px;
+  width: 100%;
+  border: none;
+  text-align: left;
+  outline: none;
+  font-size: 15px;
+}
+
+.active, .collapsible:hover {
+  color: white;
+}
+
+.content {
+  font-size: 1vw; 
+  font-weight: 400;
+  padding-left: 0vw;
+  padding-right: 0vw;
+  background-color:rgb(84, 122, 228);
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}

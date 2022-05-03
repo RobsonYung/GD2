@@ -1,0 +1,84 @@
+<html>
+    <head>
+
+    <link rel="stylesheet" href="a4p.css">
+    
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Passion+One&display">
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    
+    <title>A4: Course Index</title>
+
+    </head>
+
+    <body>
+
+        <a class= "one" href="A4.html"><h1>ROBSON YUNG .-.. --- ...- . ... GRAPHIC DESIGN 2</h1></a>
+        
+        <h2>A4: Course Index</h2> 
+        :create a webpage that will serve as an index of my development throughout the course.
+        <hr color="black">
+
+        <button type="button" class="collapsible"><h3>Idea</h3></button>
+        <div class="content">
+            <h4>Swiss Style</h4>
+            <p>The design of this webpage is based on Swiss Style, which has a great influence on the Graphic Design Industry. Many web designs nowadays contain characteristics of Swiss Style such as use of grids, asymmetrical layouts and san serif typefaces, etc. However, I started to have this idea of using Swiss Style design in the fairly late stage of this assignment. Hence, you may not see many Swiss Style elements in my process.</p>
+            <img src="/a4/a4_r.png" alt="reference"style="width: 49%;">
+            <figcaption>References for my web</figcaption>
+        </div>
+
+        <hr color="black">
+
+        <button type="button" class="collapsible"><h3>Process Work</h3></button>
+        <div class="content">
+            <h4>First Page</h4>
+            <p>This is the very first step of this assignment which is creating an initial HTML file and make it public.</p>
+            <img src="/a4/a4_pw1.png" alt="First Page" style="width: 49%;">
+            <hr color="black" style="margin-left:87vh;">
+
+            <h4>Style and Structure</h4>
+            <p>Here is my HTML page with an external stylesheet linked to it. My color scheme was light blue and red.</p>
+            <img src="/a4/a4_pw2.png" alt="Style and Structure" style="width: 49%;">
+            <hr color="black" style="margin-left:87vh;">
+
+            <h4>Homepage</h4>
+            <p>Then, I made it my homepage which links to other pages, like Assignment 1 to 3 and Reading Response.</p>
+            <img src="/a4/a4_pw3.png" alt="Homepage" style="width: 49%;">
+            <hr color="black" style="margin-left:87vh;">
+
+            <h4>Site Map</h4>
+            <p>We were asked to make a site map to show how we organize the site.</p>
+            <img src="/a4/a4_sitemap.png" alt="Site Map" style="width: 49%;">
+        </div>
+
+        <hr color="black">
+
+        <button type="button" class="collapsible"><h3>Final</h3></button>
+        <div class="content">
+            <p>You are experiencing it right now :)</p>
+        </div>
+
+        <hr color="black">
+
+        <a href="A4.html">Go Back</a>
+
+        <script>
+            var coll = document.getElementsByClassName("collapsible");
+            var i;
+            
+            for (i = 0; i < coll.length; i++) {
+              coll[i].addEventListener("click", function() {
+                this.classList.toggle("active");
+                var content = this.nextElementSibling;
+                if (content.style.maxHeight){
+                  content.style.maxHeight = null;
+                } else {
+                  content.style.maxHeight = content.scrollHeight + "px";
+                } 
+              });
+            }
+        </script>
+
+    </body>
+</html>

@@ -1,0 +1,47 @@
+body {
+    background-color: rgb(0, 0, 0);
+    font-family: 'Source Code Pro', monospace;
+    color: rgb(255, 255, 255);
+    padding-left: 1vh;
+  }
+    
+h1 {
+    font-size: 1.5vw; 
+    font-family: 'Source Code Pro', monospace;
+    font-weight: 200;
+
+    background-color: black;
+    width: 99%;
+    color: white;
+    margin-top: -2vh;
+    margin-left: -3vh;
+    padding:3vh;
+  }
+
+h2{
+    font-size: 8vw; 
+    line-height: 10%;
+    font-family: 'Passion One', cursive;
+
+    
+  }
+
+a.one:link {color: rgb(255, 255, 255);}
+a.one:visited {color: rgb(255, 255, 255);}
+a.one:hover {color: rgb(230, 100, 100)}
+
+a.two:link {color: rgb(255, 255, 255);}
+a.two:visited {color: rgb(255, 255, 255);}
+a.two:hover {color: rgb(248, 100, 55)}
+
+a.three:link {color: rgb(255, 255, 255);}
+a.three:visited {color: rgb(255, 255, 255);}
+a.three:hover {color: rgb(255, 204, 35)}
+
+a.four:link {color: rgb(255, 255, 255);}
+a.four:visited {color: rgb(255, 255, 255);}
+a.four:hover {color: rgb(88, 182, 111)}
+
+a.five:link {color: rgb(255, 255, 255);}
+a.five:visited {color: rgb(255, 255, 255);}
+a.five:hover {color: rgb(84, 122, 228)}
